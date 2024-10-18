@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4481978045410365,
+    "zoomFactor": 0.6244537826600003,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -83,7 +83,6 @@
       "layer": "",
       "locked": true,
       "name": "grid_base",
-      "opacity": 51,
       "persistentUuid": "b8348d7e-83c5-4b56-8931-ed34b57665be",
       "width": 1343,
       "x": -31,
@@ -222,6 +221,23 @@
       "x": 529,
       "y": 514,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3,
+      "height": 183,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "4adb6e58-a31c-4413-80ac-0c8e0201df7a",
+      "width": 183,
+      "x": 641,
+      "y": -22,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -792,6 +808,103 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":3,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAA1BJREFUeF7tWtFuxDAI2/7/ozfdpE5dFgIEQ9vDex0hxjY0ie7zg3+tGfhsXT2L/6ABmpuABqABmjPQvHxOABqgOQPNy+cEoAGaM9C8fE4AGqA5A83L5wSgAZoz0Lx8TgAaoDkD15b/pWyf3qDpG1zL7213PwsvaWCJCRdIA4QpdCc4hLVy7413AbKCcCVlsMhARMzXWrhe8IQUfyl+hO+IeURQEUC7WmsHnzHvFRh3a1utQ3QwIscfjNXkel1cchDKUHuSEyEeIsdlBvCKfwYaWVukr7oNSjxUnh/AlRMgCjy6XlUoOQCFH5Wn1AAI0IgcyRov06Pwo/LQAMVuQAmHykMDXGAAxGe3pQHe4RD4Eh8hHiLHr/erDoFRAaFFF3f+eJuJcg7lIgrGw+Uu8N11HmxVsYhGQHxGyifAMf52wEdJqxLXuk/E0JG1U3xVEyD6ovcOJkDU8BgDnAU/nIcwG4JEa6dG4mb170y/EUO0kf7VhBBFApmR+/wpQRAaEXm2Fi6QABDWCEiRYKCMqsDHoXHfVVg1pvB+aAMg81n0CBNg2cQYU90AkGmIFOwKMa4gXfLDFfUfWLZ5eLoBItdLY2Obw7IMMB4otR+RujR1BStUSARUHIyyyDerLzzzImo/16blc/OANMD4TTqT99rHDc7BfmZuKwzt6qeJt/q0jDee2cjf+gygDZB1QpaK2yXVKio6bteos3Uzw7n1dC8IMLJb/Gqy3PEtIKMJtrrbotVTDHCnw56F14ybQqSBRMxPMsBhgkrMEbHHtVEBU6ZAJZlRAp4+BbT6tf+nNMDTDJBCArLNhVyW7kXFuMq5iwEsxZ8Ls3SLi4jkYA3veNdf6aLlcpVCA7jo2g7WRJs99kBf/CTkVQZYdfh4n7Vg0gjdVipp4QqvdMcvmQIWshGcWAmwfgrexQDaA9dqCkC0gyQxOEQSbPXCVdIBBuyIEE/9x37a1IRoB0liZGgkQStQeuV7WvdLNxfLtFtNCIh2kCQbBvAUP0tfidtY3jLMY/7ZA9LYDLAmqCRy57CHIP8OOcbapekmYY2uFzmoNMAdhCCGgQEaoLklaAAaoDkDzcvnBKABmjPQvHxOABqgOQPNy+cEoAGaM9C8fE6A5gb4BuwctEFY81+lAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":2,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABACAYAAADS1n9/AAAAAXNSR0IArs4c6QAAAPVJREFUeF7t1AENAAAMg7DPv+kLKXMAIds12sBo+uCvAPAICqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7gALADeD4PUAB4AZw/B6gAHADOH4PUAC4ARy/BygA3ACO3wMUAG4Ax+8BCgA3gOP3AAWAG8Dxe4ACwA3g+D1AAeAGcPweoABwAzh+D1AAuAEcvwcoANwAjt8DFABuAMfvAQoAN4Dj9wAFgBvA8XuAAsAN4Pg9QAHgBnD8HqAAcAM4fg9QALgBHL8HKADcAI7fAxQAbgDH7wEKADeA4/cABYAbwPF7ADyAB8lQAEGIEzzJAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"NewSprite3\",\"NewSprite4\"],\"name\":\"NewSprite\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 19
+                      },
+                      {
+                        "x": 50,
+                        "y": 19
+                      },
+                      {
+                        "x": 50,
+                        "y": 53
+                      },
+                      {
+                        "x": 18,
+                        "y": 53
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 19
+                      },
+                      {
+                        "x": 50,
+                        "y": 19
+                      },
+                      {
+                        "x": 50,
+                        "y": 53
+                      },
+                      {
+                        "x": 18,
+                        "y": 53
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -844,6 +957,9 @@
       },
       {
         "objectName": "triggerDialogo2"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
