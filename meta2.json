@@ -16,7 +16,7 @@
     "pixelsRounding": true,
     "projectUuid": "cf4aa9dd-bd3c-42aa-89dc-e553bb39f825",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -74,10 +74,71 @@
         "alwaysLoaded": false,
         "file": "assets/camara.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/camara.png\"}",
         "name": "camara",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/foco.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "foco",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/triggerDIalogo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/triggerDIalogo.png\"}",
+        "name": "triggerDIalogo",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dialogo0.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "dialogo0",
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dialogo2.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/dialogo2.json\"}",
+        "name": "dialogo2",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -87,7 +148,20 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "dialogo",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "numeroDialogo",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
