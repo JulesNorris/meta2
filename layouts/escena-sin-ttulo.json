@@ -895,6 +895,48 @@
         "textG": 0,
         "textR": 0
       },
+      "comment": "camara\n\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "camara",
+            "=",
+            "lerp(camara.X(),personaje_base.X(),0.05)",
+            "=",
+            "lerp(camara.Y(),personaje_base.Y(),0.05)"
+          ]
+        },
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "camara",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
       "comment": "dialogo 1\n"
     },
     {
