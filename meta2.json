@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 213,
+    "build": 216,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -139,6 +139,40 @@
         "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/dialogo2.json\"}",
         "name": "dialogo2",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dialogo3.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/dialogo3.json\"}",
+        "name": "dialogo3",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/DIALOGO4.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/DIALOGO4.json\"}",
+        "name": "DIALOGO4",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -160,16 +194,26 @@
       "name": "numeroDialogo",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "cuboVerdevar",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/escena-sin-ttulo"
+      "referenceTo": "/layouts/0_-navegaciontextos"
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sticker"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

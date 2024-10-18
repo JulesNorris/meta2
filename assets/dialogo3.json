@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Inicio3",
+		"tags": "",
+		"body": "Hola , sabes que horas son????\n[[ es muy tarde |esTarde]] \n[[ muy temprano|esTemprano]]",
+		"position": {
+			"x": 214,
+			"y": 119
+		},
+		"colorID": 0
+	},
+	{
+		"title": "esTarde",
+		"tags": "",
+		"body": "cuando es tarde aveces hace frio...\nsientes frio ahora??\n[[si ... y mucho|aunmasfrio]]\n[[no, solo calor|aunmascaliente]]",
+		"position": {
+			"x": -24,
+			"y": 377
+		},
+		"colorID": 0
+	},
+	{
+		"title": "esTemprano",
+		"tags": "",
+		"body": "cundo es temprano aveces hace calor",
+		"position": {
+			"x": 367,
+			"y": 386
+		},
+		"colorID": 0
+	},
+	{
+		"title": "aunmasfrio",
+		"tags": "",
+		"body": "congelacion\n",
+		"position": {
+			"x": -318,
+			"y": 586
+		},
+		"colorID": 0
+	},
+	{
+		"title": "aunmascaliente",
+		"tags": "",
+		"body": "calentación",
+		"position": {
+			"x": -55,
+			"y": 645
+		},
+		"colorID": 0
+	}
+]

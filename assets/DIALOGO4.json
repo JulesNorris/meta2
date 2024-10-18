@@ -1,0 +1,32 @@
+[
+	{
+		"title": "InicioCondiciones",
+		"tags": "",
+		"body": "Holaaa\ncomo te parecio el cuadrado verde?\n<<if $cuboVerdeYarn is 0 >> [[cuadroVerde]]\n<<elseif $cuboVerdeYarn is 1 >>[[NocuadroVerde]] \n ??????\n<< endif>>",
+		"position": {
+			"x": 337,
+			"y": -14
+		},
+		"colorID": 0
+	},
+	{
+		"title": "cuadroVerde",
+		"tags": "",
+		"body": "me alegra que fueras a ese cuadro verde",
+		"position": {
+			"x": 95,
+			"y": 426
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NocuadroVerde",
+		"tags": "",
+		"body": "como te parecio el cuadrado verde? \ncuando vayas a ese cuadro verde regresa",
+		"position": {
+			"x": 465,
+			"y": 492
+		},
+		"colorID": 0
+	}
+]
